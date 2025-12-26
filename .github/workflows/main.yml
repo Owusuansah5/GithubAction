@@ -13,7 +13,7 @@ jobs:
   build-app:
     runs-on: ubuntu-latest # The type of runner that the job will run on
 
-    #steps represent a sequence of tasks that will be executed as part of the job
+    #steps represent a sequence of tasks that will be executed as part of the job ##
     steps:
     # checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
